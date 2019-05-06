@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes,width=device-width,height=device-height" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AirCrew_면접질문 취합</title>
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+   <style>
+        html, body {background-color: #f4f4f5; padding:0; margin: 0;}
+        .form-frame {width: 100%; max-width: 504px; margin: 0 auto; padding: 100px 0;}
+		.form-frame .inner {background: #fff; padding: 20px;}
+		.form-frame #gggl_subscribe {border:0}
+    </style>
+</head>
+
+<body>
+<div class = "form-frame">
+    <div class ="inner">
+        <div id ="gggl_subscribe">
+            <form action="" method="POST" target="_black" accept-charset="utf-8" class ="" name ="gggl_subscribe_form" id ="" novalidate>
+                <h1 class ="gggl_form_title" >승무원 면접기출 질문 취합</h1>
+                <p class ="gggl_form_description">
+                    대한항공, 아시아나 면접기출 취합
+                    <br>
+                    <br>
+                    보내주신 항공사 면접질문을 항목별로 정리 분류해서 
+                    <br>
+                    매주 수(주 1회) 메일로 보내드립니다.
+                </p>
+                
+                <fieldset class = "gggl_form_set">
+                    <label for="gggl_company" class = "gggl_form_set_label">
+                        면접본 항공사</label>
+                        <input type="radio" name="company" value="korean_air"> 
+                            <span class = "gggl_form_radio">
+                                대한한공
+                            </span>
+                        <input type="radio" name="company" value="aisana">
+                            <span class = "gggl_form_radio">
+                                아시아나
+                            </span>
+                    <div class = "gggl_form_msg_error" id = ""></div>
+                </fieldset>
+
+                <fieldset class = "gggl_form_set">
+                        <label for="gggl_step" class = "gggl_form_set_label">
+                            면접 단계</label>
+                        <select class= "gggl_form_select">
+                            <option value="1">실무</option>
+                            <option value="2">임원</option>
+                            <option value="3">최종</option>
+                        </select>
+                        <div class = "gggl_form_msg_error" id = ""></div>
+                </fieldset>
+
+
+                <fieldset class ="gggl_form_set">
+                    <label for="gggl_questions" class ="gggl_form_set_label">
+                        받았던 질문
+                    </label>
+                    <textarea class = "gggl_form_set_input"></textarea>
+                    <div class = "gggl_form_msg_error" id =""></div>
+                </fieldset>
+
+                <fieldset class = "gggl_form_set">
+                        <label for="gggl_email" class = "gggl_form_set_label">
+                            이메일 주소</label>
+                        <input type ="email" class ="gggl_form_set_input" id="gggl_email" name="email">
+                        <div class = "gggl_form_msg_error" id = ""></div>
+                </fieldset>
+
+                <fieldset class ="gggl_form_set_submit">
+                    <button typle = "submit" class = "gggl_form_submit_button" id ="" style ="background-color: rgb(246,181,62); color: rgb(255,255,255);">잘 취합해주세요!</button>
+                </fieldset>
+            </form>
+        </div>    
+    </div>
+    <script>
+    </script>
+
+
+    <style>
+            @media only screen and (max-width: 800px) {
+                .form-frame {padding: 10px 0;}	
+                .form-frame .inner {padding: 0;}
+        
+                #stb_subscribe .stb_form_submit_button {width: 100%;}
+            }
+    </style>
+</div>
+</body>
+
+
+</html>

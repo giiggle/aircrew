@@ -1,0 +1,86 @@
+#gggl_subscribe * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    border:0;
+    color:#333;
+    box-sizing: border-box;
+}
+
+#gggl_subscribe {
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #b4b4b4;
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#gggl_subscribe .gggl_form_title{
+    font-size: 24px;
+    padding-bottom: 30px;
+    color: #333;
+}
+
+#gggl_subscribe .gggl_form_description{
+    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #333;
+}
+
+#gggl_subscribe .gggl_form_set{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+#gggl_subscribe .gggl_form_set .gggl_form_set_label{
+    padding-bottom: 10px;
+    display: block;
+}
+
+#gggl_subscribe .gggl_form_set .gggl_form_set_input{
+    display: block;
+    width: 100%;
+    padding: 9px 10px;
+    border: solid 1px #b4b4b4;
+    background: #fff;
+}
+#gggl_subscribe .gggl_form_set .gggl_form_radio{
+    margin: 0 0 8px 0;
+    padding: 0 13px 0 0;
+}
+
+#gggl_subscribe select{
+    padding: 11px 34px 10px 10px;
+}
+
+#gggl_subscribe .gggl_form_set .gggl_form_select{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background: 0 0;
+    border: solid 1px #b4b4b4;
+}
+
+
+#gggl_subscribe .gggl_form_set_submit{
+    padding-top: 10px;
+}
+
+#gggl_subscribe .gggl_form_submit_button{
+    width: auto;
+    height: 42px;
+    background: #3e81f6;
+    color:#fff;
+    padding: 0 22px;
+    cursor:pointer;
+}
+
+#gggl_subscribe .gggl_form_msg_error{
+    display: none;
+    color: #f95a1f;
+    padding: 5px 0;
+    font-size: 12px;
+}
